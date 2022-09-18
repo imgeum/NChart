@@ -4,9 +4,8 @@ import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
-import com.neoguri.nchart.R
 import com.neoguri.nchart.chart.NChart
-import com.neoguri.nchart.databinding.ActivityMainBinding
+import com.neoguri.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity(), NChart.ChartEventListener {
 
