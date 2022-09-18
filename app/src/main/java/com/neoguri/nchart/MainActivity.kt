@@ -1,13 +1,11 @@
 package com.neoguri.nchart
 
-import android.graphics.BitmapFactory
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import com.neoguri.nchart.chart.NChart
 import com.neoguri.nchart.databinding.ActivityMainBinding
-import java.util.ArrayList
 
 class MainActivity : AppCompatActivity(), NChart.ChartEventListener {
 
