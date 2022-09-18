@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NChart">
+        <attr name="chartTopBackgroundColor" format="color"/>
+        <attr name="chartBottomBackgroundDrawable" format="integer"/>
+        <attr name="chartLineColor" format="color"/>
+        <attr name="chartCutColor" format="color"/>
+        <attr name="chartCircleDrawable" format="integer"/>
+        <attr name="chartLineStrokeWidth" format="dimension"/>
+        <attr name="chartCircleWidth" format="dimension"/>
+        <attr name="cutMode" format="enum">
+            <enum name="NONE" value="0"/>
+            <enum name="ALL" value="1"/>
+            <enum name="TOP" value="2"/>
+            <enum name="BOTTOM" value="3"/>
+        </attr>
+    </declare-styleable>
+</resources>

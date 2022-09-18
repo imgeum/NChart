@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.neoguri.nchart.view.CustomScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <com.neoguri.nchart.chart.NChart
+                android:id="@+id/NChart_1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:scrollbars="none" />
+
+            <com.neoguri.nchart.chart.NChart
+                android:id="@+id/NChart_2"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:scrollbars="none" />
+
+            <com.neoguri.nchart.chart.NChart
+                android:id="@+id/NChart_3"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:scrollbars="none" />
+
+            <com.neoguri.nchart.chart.NChart
+                android:id="@+id/NChart_4"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:scrollbars="none" />
+
+            <com.neoguri.nchart.view.CustomHorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.neoguri.nchart.chart.NChart
+                        android:id="@+id/NChart_5"
+                        android:layout_width="1000dp"
+                        android:layout_height="100dp"
+                        android:scrollbars="none" />
+
+                </RelativeLayout>
+
+            </com.neoguri.nchart.view.CustomHorizontalScrollView>
+
+            <com.neoguri.nchart.view.CustomHorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.neoguri.nchart.chart.NChart
+                        android:id="@+id/NChart_6"
+                        android:layout_width="1000dp"
+                        android:layout_height="100dp"
+                        android:scrollbars="none" />
+
+                </RelativeLayout>
+
+            </com.neoguri.nchart.view.CustomHorizontalScrollView>
+
+            <TextView
+                android:id="@+id/text_view7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/chart_text_size"/>
+
+            <com.neoguri.nchart.view.CustomHorizontalScrollView
+                android:id="@+id/scroll_view_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.neoguri.nchart.chart.NChart
+                        android:id="@+id/NChart_7"
+                        android:layout_width="1000dp"
+                        android:layout_height="100dp"
+                        android:scrollbars="none" />
+
+                </RelativeLayout>
+
+            </com.neoguri.nchart.view.CustomHorizontalScrollView>
+
+            <com.neoguri.nchart.view.CustomHorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="1000dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/red_gradation" />
+
+                    <com.neoguri.nchart.chart.NChart
+                        android:id="@+id/NChart_8"
+                        android:layout_width="1000dp"
+                        android:layout_height="100dp"
+                        android:scrollbars="none" />
+
+                </RelativeLayout>
+
+            </com.neoguri.nchart.view.CustomHorizontalScrollView>
+
+            <com.neoguri.nchart.view.CustomHorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/scroll_view_9">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.neoguri.nchart.chart.NChart
+                        android:id="@+id/NChart_9"
+                        android:layout_width="1000dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="15dp"
+                        android:scrollbars="none" />
+
+                </RelativeLayout>
+
+            </com.neoguri.nchart.view.CustomHorizontalScrollView>
+
+            <com.neoguri.nchart.view.CustomHorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/scroll_view_10">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.neoguri.nchart.chart.NChart
+                        android:id="@+id/NChart_10"
+                        android:layout_width="1000dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="15dp"
+                        android:scrollbars="none"
+                        app:chartTopBackgroundColor="@color/transparency"
+                        app:chartBottomBackgroundDrawable="@drawable/blue_gradation"
+                        app:chartCircleDrawable="@drawable/setting_image"
+                        app:chartCircleWidth="30dp"
+                        app:chartCutColor="@color/purple_200"
+                        app:chartLineColor="@color/white"
+                        app:chartLineStrokeWidth="3dp"
+                        app:cutMode="BOTTOM"/>
+
+                </RelativeLayout>
+
+            </com.neoguri.nchart.view.CustomHorizontalScrollView>
+
+        </LinearLayout>
+
+    </com.neoguri.nchart.view.CustomScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
