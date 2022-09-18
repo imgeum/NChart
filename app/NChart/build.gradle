@@ -14,7 +14,7 @@ afterEvaluate {
 
                 // You can then customize attributes of the publication as shown below.
                 groupId = 'com.neoguri.nchart'
-                artifactId = 'final'
+                artifactId = 'NChart'
                 version = '1.0.5'
             }
             // Creates a Maven publication called “debug”.
@@ -23,7 +23,7 @@ afterEvaluate {
                 from components.debug
 
                 groupId = 'com.neoguri.nchart'
-                artifactId = 'final-debug'
+                artifactId = 'NChart'
                 version = '1.0.5'
             }
         }
